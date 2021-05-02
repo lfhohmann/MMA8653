@@ -89,6 +89,6 @@ void loop()
         Serial.print(z);
         Serial.println();
 
-        newAccData = false;
+        newAccelData = false;
     }
 }
