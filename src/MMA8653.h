@@ -1,8 +1,9 @@
 /**
  * @file MMA8653.h
  * 
- * @author Lucas Hohmann
+ * @author Lucas Hohmann - @lfhohmann
  * @brief NXP MMA8653 Accelerometer library for Arduino
+ * @link https://github.com/lfhohmann/MMA8653
  * @note Only tested on (BBCMicroBit V1.3B)
  * @version 2.0
  * @date 2020-09-12
