@@ -604,10 +604,3 @@ void MMA8653::_checkStandby()
         exitStandby();
     }
 }
-
-/*
-uint8_t MMA8653::readREG(uint8_t reg_offset)
-{
-    return readRegister(MMA8653_I2C_ADDRESS, reg_offset);
-}
-*/
