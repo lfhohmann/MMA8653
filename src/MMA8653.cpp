@@ -231,12 +231,23 @@ void MMA8653::setInterrupt(uint8_t interrupt, uint8_t config)
 
     _checkStandby();
 }
-//
-//
-// UINT TO BOOL FOR POLARITY + PUSH PULL?
-//
-//
-//
+
+/**
+ * @brief Setup interrupt pins (INT1/INT2) modes
+ * 
+ * @param polarity:           MMA8653_INT_PINS_POLARITY_ACTIVE_LOW
+ *                            MMA8653_INT_PINS_POLARITY_ACTIVE_HIGH
+ * 
+ * @param pushpull_opendrain: MMA8653_INT_PINS_PUSH_PULL
+ *                            MMA8653_INT_PINS_OPEN_DRAIN
+ * 
+ * @note This sets both interrupt pins simultaneously.
+ * 
+ * Example: 
+ * @code
+ * MMA8653.setInterruptsConfig(MMA8653_INT_PINS_POLARITY_ACTIVE_HIGH, MMA8653_INT_PINS_PUSH_PULL);
+ * @endcode
+ */
 void MMA8653::setInterruptsConfig(bool polarity, bool pushpull_opendrain)
 {
     // bool _was_active = _is_active;
@@ -247,12 +258,6 @@ void MMA8653::setInterruptsConfig(bool polarity, bool pushpull_opendrain)
 
     _checkStandby();
 }
-//
-//
-//
-//
-//
-//
 
 /**
  * @brief Gets the interrupt configuration
