@@ -5,7 +5,7 @@
  *
  * @brief NXP MMA8653 Accelerometer library for Arduino - Interrupt Example
  * @link https://github.com/lfhohmann/MMA8653
- * @version 1.0
+ * @version 1.1
  * @date 2020-09-12
  *
  * DATASHEET:
@@ -37,7 +37,7 @@
 
 #include <MMA8653.h>
 
-#define INT_1_PIN (29) // PIN NUMBER WIRED TO INT1 OUTPUT
+#define INT_1_PIN (29) // PIN NUMBER WIRED TO INT1 OUTPUT (Pin 29 on the BBC MicroBit)
 
 MMA8653 accel = MMA8653();
 int16_t x, y, z;
