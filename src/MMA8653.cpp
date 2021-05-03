@@ -1,7 +1,7 @@
 /**
  * @file MMA8653.cpp
  * 
- * @author Lucas Hohmann - @lfhohmann
+ * @author Lucas Hohmann - lfhohmann@gmail.com
  * @brief NXP MMA8653 Accelerometer library for Arduino
  * @link https://github.com/lfhohmann/MMA8653
  * @note Only tested on (BBCMicroBit V1.3B)
@@ -26,8 +26,11 @@ MMA8653::MMA8653()
 {
     _is_active = false;
     _was_active = false;
-    // SET I2C Address on constructor?
-    // Add DataReady Reading function
+
+    // TODO
+    //  Set I2C Address on constructor?
+    //  Add DataReady Reading function
+    //  Fix check_standby/was_active
 }
 
 /**

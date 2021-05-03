@@ -1,7 +1,7 @@
 /**
  * @file wireAdvanced.h
  * 
- * @author Lucas Hohmann
+ * @author Lucas Hohmann - lfhohmann@gmail.com
  * @brief Simple tool to be used by other I2C devices libraries
  * @version 0.9
  * @date 2020-09-12

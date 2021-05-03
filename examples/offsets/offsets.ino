@@ -1,7 +1,7 @@
 /* 
  * @file offsets.ino
  *
- * @author Lucas Hohmann - @lfhohmann
+ * @author Lucas Hohmann - lfhohmann@gmail.com
  *
  * @brief NXP MMA8653 Accelerometer library for Arduino - Offsets Example
  * @link https://github.com/lfhohmann/MMA8653

@@ -1,7 +1,7 @@
 /* 
  * @file basic.ino
  *
- * @author Lucas Hohmann - @lfhohmann
+ * @author Lucas Hohmann - lfhohmann@gmail.com
  *
  * @brief NXP MMA8653 Accelerometer library for Arduino - Basic Example
  * @link https://github.com/lfhohmann/MMA8653
@@ -27,9 +27,9 @@
  *      Initializes the accelerometer with the specified parameters.
  * 
  *      Ranges:
- *          MMA8653_2G_RANGE -> 2G
- *          MMA8653_4G_RANGE -> 4G
- *          MMA8653_8G_RANGE -> 8G
+ *          MMA8653_2G_RANGE -> -2G to +2G
+ *          MMA8653_4G_RANGE -> -4G to +4G
+ *          MMA8653_8G_RANGE -> -8G to +8G
  * 
  *      Resolutions:
  *          MMA8653_8BIT_RES  -> 8bit
